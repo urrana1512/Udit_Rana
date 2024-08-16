@@ -1,0 +1,27 @@
+Polymorphism : poly = many
+               phism = Transforming
+
+2 Types : (1) Method OverLoading : When one class have same name function it is called overloading.
+          (2) Method OverRiding : When inherited class have same name of function it is called OverRiding.
+
+--> to tackle overloading, we have to used different parameter in same name function.
+    EX: Method OverLoading
+        myfunc(int a)
+        {
+            cout << "This is Function 1." << endl;
+        }
+        myfunc(string a)
+        {
+            cout << "This is Function 2." << endl;
+        }
+        myfunc(int a, int b)
+        {
+            cout << "This is Function 3." << endl;
+        }
+        myfunc()
+        {
+            cout << "This is Function 4." << endl;
+        }
+    
+--> to tackle OverRiding, we have to used Scaope resolution operator in inherited class.    
+    EX: Method OverRiding
